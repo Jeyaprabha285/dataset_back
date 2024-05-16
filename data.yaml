@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['aadhaar number', 'address', 'emblem', 'uiai icon', 'uiai symbol', 'vid']
+
+roboflow:
+  workspace: iserveu-earmo
+  project: aadhaar-back-8kdex
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iserveu-earmo/aadhaar-back-8kdex/dataset/2
